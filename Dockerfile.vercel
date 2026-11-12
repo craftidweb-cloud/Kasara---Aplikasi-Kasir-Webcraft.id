@@ -6,5 +6,4 @@ WORKDIR /app/public
 COPY . /app/public
 
 COPY Caddyfile /etc/caddy/Caddyfile
-
-CMD ["--config", "/etc/caddy/Caddyfile", "--adapter", "caddyfile"]
+CMD ["run", "--config", "/etc/caddy/Caddyfile", "--adapter", "caddyfile"]
