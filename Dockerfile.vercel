@@ -7,4 +7,4 @@ COPY . /app/public
 
 COPY Caddyfile /etc/caddy/Caddyfile
 
-CMD ["frankenphp", "run", "--config", "/etc/caddy/Caddyfile"]
+CMD ["--config", "/etc/caddy/Caddyfile", "--adapter", "caddyfile"]
