@@ -1,1 +1,1 @@
-# Kasara---Aplikasi-Kasir-Webcraft.id
+Kasara POS - Webcraft.id
