@@ -1,5 +1,6 @@
 
-:{$PORT:80} {
+:80 {
     root * /app/public
     php_server
 }
+
