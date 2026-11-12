@@ -5,5 +5,6 @@ WORKDIR /app/public
 
 COPY . /app/public
 
-COPY Caddyfile /etc/caddy/Caddyfile
-CMD ["run", "--config", "/etc/caddy/Caddyfile", "--adapter", "caddyfile"]
+COPY Caddyfile /etc/frankenphp/Caddyfile
+
+CMD ["--config", "/etc/frankenphp/Caddyfile", "--adapter", "caddyfile"]
